@@ -1,0 +1,7 @@
+<launch>
+  <!-- launch navigation  -->
+  <include file="$(find navigation)/launch/navigation.launch" />
+
+  <!-- record position and time stamp -->
+  <include file="$(find position_recorder)/launch/position_recorder.launch" />
+</launch>

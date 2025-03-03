@@ -1,0 +1,10 @@
+<launch>
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen" clear_params="true">
+      <rosparam file="$(find navigation)/param/costmap_common_param.yaml" command="load" ns="global_costmap" />
+      <rosparam file="$(find navigation)/param/costmap_common_param.yaml" command="load" ns="local_costmap" />
+      <rosparam file="$(find navigation)/param/local_costmap_param.yaml" command="load" />
+      <rosparam file="$(find navigation)/param/global_costmap_param.yaml" command="load" />
+      <param name="base_local_planner" value="abp_planner/ABPPlanner" />
+      <param name="base_global_planner" value="global_planner/GlobalPlanner" />
+  </node>
+</launch>

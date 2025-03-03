@@ -1,0 +1,5 @@
+<launch>
+  <arg name="map" default="map.yaml"/>
+  
+  <node pkg="map_server" name="map_server" type="map_server" args="$(find map)/map_info/$(arg map)"/>
+</launch>
