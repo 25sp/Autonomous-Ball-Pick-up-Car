@@ -1,0 +1,6 @@
+<launch>
+  <!-- Specify the video device path -->
+  <include file="$(find camera_view)/launch/camera_use.launch" />
+
+  <node pkg="rqt_image_view" type="rqt_image_view" name="rqt_image_view" output="screen"/>
+</launch>
