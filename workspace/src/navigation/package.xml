@@ -2,7 +2,7 @@
 <package format="2">
   <name>navigation</name>
   <version>1.0.0</version>
-  <description>The point_to_point_nav package</description>
+  <description>The navigation package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
