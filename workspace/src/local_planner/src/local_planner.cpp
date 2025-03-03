@@ -9,7 +9,7 @@
 
 // when you want to write a plugin for the ROS system, this declaration is a
 // must tell the system what your plugin is and what will be replaced
-PLUGINLIB_EXPORT_CLASS(abp_planner::LocalPlanner, nav_core::BaseLocalPlanner)
+PLUGINLIB_EXPORT_CLASS(local_planner::LocalPlanner, nav_core::BaseLocalPlanner)
 
 namespace local_planner {
 // constructor and destructor
