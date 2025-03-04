@@ -91,7 +91,7 @@ roslaunch navigation navigation.launch
 
 ## Camera
 
-A camera is used to implement YOLO model for object detection.
+A camera is used to implement YOLO model for object detection. When 
 
 ```bash
 roslaunch camera_view camera_proc.launch
