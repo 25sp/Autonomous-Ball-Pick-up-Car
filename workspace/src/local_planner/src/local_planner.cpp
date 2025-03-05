@@ -1,6 +1,6 @@
 #include "local_planner.h"
 #include <opencv4/opencv2/highgui/highgui.hpp>
-#include <opencv4/imgproc/imgproc.hpp>
+#include <opencv4/opencv2/imgproc/imgproc.hpp>
 #include <pluginlib/class_list_macros.h>
 #include <tf/tf.h>
 #include <tf/transform_datatypes.h>
