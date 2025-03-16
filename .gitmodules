@@ -13,3 +13,6 @@
 [submodule "workspace/src/rf2o_laser_odometry"]
 	path = workspace/src/rf2o_laser_odometry
 	url = git@github.com:25sp/rf2o_laser_odometry.git
+[submodule "workspace/src/rplidar_ros"]
+	path = workspace/src/rplidar_ros
+	url = git@github.com:25sp/rplidar_ros.git
