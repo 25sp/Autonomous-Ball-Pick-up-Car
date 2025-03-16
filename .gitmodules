@@ -7,3 +7,9 @@
 [submodule "cartographer_workspace/src/cartographer"]
 	path = cartographer_workspace/src/cartographer
 	url = git@github.com:TangJingfan/cartographer.git
+[submodule "cartographer_workspace/src/cartographer_ros"]
+	path = cartographer_workspace/src/cartographer_ros
+	url = git@github.com:25sp/cartographer_ros.git
+[submodule "workspace/src/rf2o_laser_odometry"]
+	path = workspace/src/rf2o_laser_odometry
+	url = git@github.com:25sp/rf2o_laser_odometry.git
