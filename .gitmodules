@@ -1,18 +1,9 @@
-[submodule "workspace/src/rplidar_ros"]
-	path = workspace/src/rplidar_ros
-	url = git@github.com:TangJingfan/rplidar_ros.git
 [submodule "workspace/src/lidar_loc"]
 	path = workspace/src/lidar_loc
 	url = git@github.com:TangJingfan/lidar_loc.git
-[submodule "workspace/src/rf2o_laser_odometry"]
-	path = workspace/src/rf2o_laser_odometry
-	url = git@github.com:TangJingfan/rf2o_laser_odometry.git
 [submodule "cartographer_workspace/abseil-cpp"]
 	path = cartographer_workspace/abseil-cpp
 	url = git@github.com:TangJingfan/abseil-cpp.git
-[submodule "cartographer_workspace/src/cartographer_ros"]
-	path = cartographer_workspace/src/cartographer_ros
-	url = git@github.com:TangJingfan/cartographer_ros.git
 [submodule "cartographer_workspace/src/cartographer"]
 	path = cartographer_workspace/src/cartographer
 	url = git@github.com:TangJingfan/cartographer.git
